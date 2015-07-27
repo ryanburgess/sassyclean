@@ -16,6 +16,10 @@ Remove can be set to `true` or `false`.
 
 Sassyclean assumes that all your Sass files are in a directory with the name `sass` in your project.
 
+## Related
+* [Grunt-SassyClean](https://github.com/ryanburgess/grunt-sassyclean)
+* [Sassy Sass](https://github.com/ryanburgess/sassysass)
+
 ## Contributing
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
