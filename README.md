@@ -2,6 +2,8 @@
 
 [![npm version](https://badge.fury.io/js/sassyclean.svg)](http://badge.fury.io/js/sassyclean) [![npm](https://img.shields.io/npm/dm/sassyclean.svg)](https://github.com/ryanburgess/sassyclean) [![Build Status](https://travis-ci.org/ryanburgess/sassyclean.svg?branch=master)](https://travis-ci.org/ryanburgess/sassyclean)
 
+![SassyClean logo](https://raw.github.com/ryanburgess/grunt-sassyclean/master/sassyclean.png)
+
 Scans a project for partials that are never imported. Sassy Clean provides the option to automatically delete the unused partials or display the file name as a console log.
 
 ```js
