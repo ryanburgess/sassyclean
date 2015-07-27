@@ -1,6 +1,6 @@
 {
   "name": "sassyclean",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Scans a project for Sass partials that are never imported and removes them.",
   "main": "index.js",
   "preferGlobal": true,
