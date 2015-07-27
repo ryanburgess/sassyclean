@@ -1,0 +1,19 @@
+#!/usr/bin/env node
+var argument    = process.argv[2],
+  argumentSec   = process.argv[3],
+  sassyclean    = require('../index');
+
+var options = {
+  directory: ['modules'],
+  remove: false
+};
+
+if(argument !== '' || argument !== undefined){
+  options.directory = argument;
+}
+
+if(argumentSec === true){
+  options.remove = true;
+}
+
+sassyclean(options.directory, options.remove);

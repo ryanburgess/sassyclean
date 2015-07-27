@@ -1,0 +1,41 @@
+{
+  "name": "sassyclean",
+  "version": "1.0.0",
+  "description": "Scans a project for Sass partials that are never imported and removes them.",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "sassyclean": "./bin/sassyclean"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanburgess/sassyclean.git"
+  },
+  "keywords": [
+    "sass",
+    "scss",
+    "sassyclean",
+    "sassy",
+    "clean",
+    "delete",
+    "cleanup",
+    "remove",
+    "organize"
+  ],
+  "author": "Ryan Burgess @burgessdryan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanburgess/sassyclean/issues"
+  },
+  "homepage": "https://github.com/ryanburgess/sassyclean#readme",
+  "dependencies": {
+    "fs-extra": "^0.22.1",
+    "prompt": "^0.2.14"
+  },
+  "devDependencies": {
+    "tape": "^4.0.1"
+  }
+}
